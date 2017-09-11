@@ -9,7 +9,7 @@
 
 def square_array(numbers)
   new_numbers = []
-  squared =[]
-  squared << new_numbers.collect { |number| number ** 2}
+
+  new_numbers.collect { |number| number ** 2}
   new_numbers
 end
