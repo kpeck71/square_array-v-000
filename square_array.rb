@@ -10,6 +10,6 @@
 def square_array(numbers)
   new_numbers = []
 
-  numbers.collect { |number| number * number}
+  numbers.collect { |numbers| numbers * numbers}
 
 end
