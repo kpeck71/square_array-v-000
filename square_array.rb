@@ -10,5 +10,5 @@
 def square_array(numbers)
   squared = []
   squared_2 = squared.collect { |number| number ** 2}
-  squared
+  squared_2
 end
