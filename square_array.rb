@@ -8,8 +8,8 @@
 #end
 
 def square_array(numbers)
-  squared = []
-
+  new_numbers = []
+  squared =[]
   squared << new_numbers.collect { |number| number ** 2}
   new_numbers
 end
